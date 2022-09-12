@@ -52,6 +52,7 @@ main {
   flex-direction: row;
   max-width: 52rem;
   border-radius: 10rem;
+  margin: 1rem;
 }
 
 article {
@@ -127,6 +128,7 @@ article p {
   body {
     margin: 1.5rem;
   }
+
   main {
     flex-direction: column;
   }
