@@ -26,8 +26,8 @@ body {
   background-color: var(--bg-very-light-gray);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,32 +47,32 @@ button {
   font-weight: 600;
 }
 
-.preview-card {
+main {
   display: flex;
   flex-direction: row;
   max-width: 52rem;
   border-radius: 10rem;
 }
 
-.preview-card h1 {
-  font-family: "Big Shoulders Display", cursive;
-  font-size: 2.2rem;
-  text-transform: uppercase;
-  padding: 40px 0 40px 0;
-}
-
-.car-category {
+article {
   display: flex;
   flex-direction: column;
   color: white;
   padding: 2.5rem;
 }
 
-.car-category img {
-  max-width: 52px;
+article img {
+  max-width: 3.25rem;
 }
 
-.car-category p {
+article h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  padding: 2.5rem 0 2.5rem 0;
+}
+
+article p {
   color: var(--text-white);
   padding-bottom: 5.25rem;
 }
@@ -127,7 +127,7 @@ button {
   body {
     margin: 1.5rem;
   }
-  .preview-card {
+  main {
     flex-direction: column;
   }
 
