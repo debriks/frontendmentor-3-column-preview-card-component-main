@@ -138,14 +138,10 @@ article p {
   }
 
   .sedans {
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
-    border-bottom-left-radius: 0em;
+    border-radius: 0.5em 0.5em 0 0;
   }
 
   .luxury {
-    border-top-right-radius: 0em;
-    border-bottom-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+    border-radius: 0 0 0.5em 0.5em;
   }
 }
