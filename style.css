@@ -45,6 +45,8 @@ button {
   padding: 1rem 1.5rem;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
+  position: absolute;
+  bottom: 2.5rem;
 }
 
 main {
@@ -56,6 +58,7 @@ main {
 }
 
 article {
+  position: relative;
   display: flex;
   flex-direction: column;
   color: white;
@@ -131,6 +134,7 @@ article p {
 
   main {
     flex-direction: column;
+    margin: 0rem;
   }
 
   .sedans {
